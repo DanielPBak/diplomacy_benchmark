@@ -1,0 +1,5 @@
+{
+  "claude_power": "ENGLAND",
+  "claude_model": "claude-haiku-5-5",
+  "local_model": "Qwen3-8B (8-bit MLX, thinking)"
+}

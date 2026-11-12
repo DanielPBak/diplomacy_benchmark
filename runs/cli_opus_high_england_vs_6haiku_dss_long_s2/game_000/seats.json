@@ -1,0 +1,41 @@
+{
+  "seed": 2,
+  "memory_window": 95000,
+  "seats": {
+    "AUSTRIA": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    },
+    "ENGLAND": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "FRANCE": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    },
+    "GERMANY": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    },
+    "ITALY": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    },
+    "RUSSIA": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    },
+    "TURKEY": {
+      "model": "haiku",
+      "scoring": "dss",
+      "identity": "claude-haiku-5-5"
+    }
+  }
+}

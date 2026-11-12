@@ -1,0 +1,107 @@
+{
+  "game_id": "haiku_x7_full_sos/game_000",
+  "press_mode": "full",
+  "outcome": "draw_vote",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 5,
+    "ENGLAND": 5,
+    "FRANCE": 5,
+    "GERMANY": 5,
+    "ITALY": 4,
+    "RUSSIA": 5,
+    "TURKEY": 5
+  },
+  "final_phase": "S1903M",
+  "final_year": 1903,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1920,
+  "year_centers": {
+    "1901": {
+      "AUSTRIA": 4,
+      "ENGLAND": 5,
+      "FRANCE": 5,
+      "GERMANY": 5,
+      "ITALY": 4,
+      "RUSSIA": 5,
+      "TURKEY": 4
+    },
+    "1902": {
+      "AUSTRIA": 5,
+      "ENGLAND": 5,
+      "FRANCE": 5,
+      "GERMANY": 5,
+      "ITALY": 4,
+      "RUSSIA": 5,
+      "TURKEY": 5
+    }
+  },
+  "year_survivors": {
+    "1901": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1902": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ]
+  },
+  "n_messages": 114,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 1445,
+    "ENGLAND": 1215,
+    "FRANCE": 1214,
+    "GERMANY": 1338,
+    "ITALY": 1060,
+    "RUSSIA": 1485,
+    "TURKEY": 1386
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "claude-haiku-5-5",
+    "ENGLAND": "claude-haiku-5-5",
+    "FRANCE": "claude-haiku-5-5",
+    "GERMANY": "claude-haiku-5-5",
+    "ITALY": "claude-haiku-5-5",
+    "RUSSIA": "claude-haiku-5-5",
+    "TURKEY": "claude-haiku-5-5"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 0,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 1,
+    "TURKEY": 0
+  },
+  "resumes": 0
+}

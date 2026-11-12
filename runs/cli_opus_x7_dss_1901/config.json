@@ -1,0 +1,14 @@
+{
+  "name": "cli_opus_x7_dss_1901",
+  "models": {
+    "opus": {"provider": "claude_cli", "model": "claude-opus-5-5", "effort": "high", "billing": "subscription"}
+  },
+  "lineup": ["opus", "opus", "opus", "opus", "opus", "opus", "opus"],
+  "n_games": 1,
+  "assignment": "fixed",
+  "scoring": "dss",
+  "game": {"press_mode": "full", "max_year": 1901, "announced_max_year": 1999, "negotiation_rounds": 5,
+           "press_token_budget": 300, "draw_vote_from_year": 1901, "identity_disclosure": "hidden"},
+  "agent": {"output_limit": 4096, "memory_window": "auto"},
+  "seed": 1
+}

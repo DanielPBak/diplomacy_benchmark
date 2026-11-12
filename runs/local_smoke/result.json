@@ -1,0 +1,69 @@
+{
+  "game_id": "local_smoke",
+  "press_mode": "full",
+  "outcome": "draw_vote",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 3,
+    "ENGLAND": 3,
+    "FRANCE": 3,
+    "GERMANY": 3,
+    "ITALY": 3,
+    "RUSSIA": 4,
+    "TURKEY": 3
+  },
+  "final_phase": "S1901M",
+  "final_year": 1901,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1901,
+  "year_centers": {},
+  "year_survivors": {},
+  "n_messages": 7,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 60,
+    "ENGLAND": 33,
+    "FRANCE": 39,
+    "GERMANY": 41,
+    "ITALY": 39,
+    "RUSSIA": 60,
+    "TURKEY": 57
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "Qwen/Qwen3-8B",
+    "ENGLAND": "Qwen/Qwen3-8B",
+    "FRANCE": "Qwen/Qwen3-8B",
+    "GERMANY": "Qwen/Qwen3-8B",
+    "ITALY": "Qwen/Qwen3-8B",
+    "RUSSIA": "Qwen/Qwen3-8B",
+    "TURKEY": "Qwen/Qwen3-8B"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 0,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 0,
+    "TURKEY": 0
+  },
+  "resumes": 0
+}

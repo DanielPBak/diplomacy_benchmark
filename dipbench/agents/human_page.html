@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diplomacy Seat</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6a64; --line: #e2e0d8;
+    --accent: #2b5fa8; --accent-ink: #ffffff; --warn: #a8432b; --ok: #2f7d4f; --chip: #efede6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --panel: #20201e; --ink: #ecebe6; --muted: #a19f97; --line: #34332f;
+            --accent: #6f9be0; --accent-ink: #10131a; --warn: #e08a6f; --ok: #6fc290; --chip: #2a2a27; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { position: sticky; top: 0; z-index: 2; background: var(--panel); border-bottom: 1px solid var(--line);
+           padding: 10px 16px; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; }
+  #status { font-weight: 600; }
+  #status.turn { color: var(--ok); }
+  #status.wait { color: var(--muted); }
+  main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; padding: 16px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px;
+            margin-bottom: 16px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 8px; }
+  #map svg { width: 100%; height: auto; display: block; }
+  .muted { color: var(--muted); }
+  .err { color: var(--warn); }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { text-align: left; padding: 3px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .msg { border-bottom: 1px solid var(--line); padding: 6px 0; }
+  .msg .meta { font-size: 12px; color: var(--muted); }
+  .msg.mine .meta::before { content: "you · "; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  .chips label { background: var(--chip); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
+  textarea { width: 100%; min-height: 80px; font: inherit; color: var(--ink); background: var(--bg);
+             border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+  select { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+           border-radius: 6px; padding: 4px; max-width: 100%; }
+  button { font: inherit; border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+           border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  button:disabled { opacity: .5; cursor: default; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+  .draft { background: var(--chip); border-radius: 6px; padding: 6px 8px; margin: 6px 0; display: flex; gap: 8px; }
+  .draft div { flex: 1; }
+  pre { white-space: pre-wrap; font: 12px/1.4 ui-monospace, Menlo, monospace; margin: 0; }
+  details summary { cursor: pointer; color: var(--muted); }
+  #msgs { max-height: 420px; overflow-y: auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Diplomacy</h1>
+  <span id="task" class="muted"></span>
+  <span id="status" class="wait">Connecting…</span>
+</header>
+<main>
+  <div>
+    <section><div id="map" class="muted">The map appears when the game starts.</div></section>
+    <section><h2>Board</h2><div id="board"></div></section>
+    <section><h2>Last phase</h2><div id="last"></div></section>
+  </div>
+  <div>
+    <section id="feedback-box" hidden><h2>Fix and resubmit</h2><div id="feedback" class="err"></div></section>
+    <section id="act"><h2 id="act-title">Your turn</h2><div id="act-body" class="muted">Waiting…</div></section>
+    <section><h2>Draw</h2><div id="draw"></div></section>
+    <section>
+      <h2>Messages</h2>
+      <div class="row"><label>Show <select id="filter"><option value="">everything</option></select></label></div>
+      <div id="rejected" class="err"></div>
+      <div id="msgs"></div>
+    </section>
+    <section><details><summary>Full order history</summary><div id="history"></div></details></section>
+    <section><details><summary>Rules (as given to every player)</summary><pre id="rules"></pre></details></section>
+  </div>
+</main>
+<script>
+"use strict";
+let view = null, waiting = false, seq = -1, drafts = [], sending = false;
+const $ = id => document.getElementById(id);
+const el = (tag, props = {}, ...kids) => {
+  const e = document.createElement(tag);
+  Object.assign(e, props);
+  for (const k of kids) e.append(k);
+  return e;
+};
+const tokens = s => Math.ceil(s.length / 4);
+const who = r => r.length === 1 && r[0] === "GLOBAL" ? "everyone" : r.join(", ");
+
+async function poll() {
+  try {
+    const st = await (await fetch("/state", {cache: "no-store"})).json();
+    if (st.view && (st.view.seq !== seq || st.waiting !== waiting)) {
+      const fresh = st.view.seq !== seq;
+      view = st.view; waiting = st.waiting; seq = view.seq;
+      if (fresh) drafts = [];
+      render(fresh);
+    } else if (!st.view) {
+      $("status").textContent = "Waiting for the game to reach your first turn…";
+    }
+  } catch (e) {
+    $("status").className = "wait";
+    $("status").textContent = "Game server not reachable (has the game ended?)";
+  }
+}
+
+function render(fresh) {
+  $("title").textContent = `${view.power} · ${view.phase}`;
+  $("task").textContent = view.task_label;
+  $("status").className = waiting ? "turn" : "wait";
+  $("status").textContent = waiting ? "YOUR TURN" : "Submitted. Waiting for the other powers…";
+  if (fresh) { $("map").innerHTML = view.map_svg; renderMessages(); }
+  renderBoard(); renderLast(); renderDraw(); renderHistory();
+  $("rules").textContent = view.rules;
+  $("feedback-box").hidden = !(view.feedback && view.feedback.length);
+  $("feedback").replaceChildren(...(view.feedback || []).map(f => el("div", {textContent: f})));
+  if (!waiting) {
+    $("act-title").textContent = "Submitted";
+    $("act-body").replaceChildren(el("div", {className: "muted", textContent: "The page updates when it's your turn again."}));
+  } else if (view.kind === "negotiate") renderNegotiate();
+  else renderOrders();
+}
+
+function renderBoard() {
+  const rows = Object.keys(view.centers).sort().map(p => {
+    const c = view.centers[p], u = view.units[p];
+    const name = p === view.power ? `${p} (you)` : p;
+    const label = view.opponent_identities && view.opponent_identities[p] ? ` · ${view.opponent_identities[p]}` : "";
+    return el("tr", {}, el("td", {textContent: name + label}), el("td", {textContent: String(c.length)}),
+              el("td", {textContent: c.slice().sort().join(" ") || "-"}), el("td", {textContent: u.join(", ") || "-"}));
+  });
+  $("board").replaceChildren(el("table", {},
+    el("tr", {}, ...["Power", "SCs", "Centers", "Units"].map(h => el("th", {textContent: h}))), ...rows),
+    el("div", {className: "muted", textContent: `Unowned: ${view.unowned.join(" ") || "-"}`}));
+}
+
+function phaseBlock(h) {
+  const box = el("div", {}, el("strong", {textContent: h.phase}));
+  for (const p of Object.keys(h.orders).sort()) {
+    const orders = (h.orders[p] || []).map(o => {
+      const unit = o.split(" ").slice(0, 2).join(" ");
+      const res = (h.results[unit] || []).filter(Boolean);
+      return o + (res.length ? ` [${res.join(", ")}]` : "");
+    });
+    if (orders.length) box.append(el("div", {textContent: `${p}: ${orders.join("; ")}`}));
+  }
+  return box;
+}
+function renderLast() {
+  const h = view.history[view.history.length - 1];
+  $("last").replaceChildren(h ? phaseBlock(h) : el("div", {className: "muted", textContent: "Nothing yet."}));
+}
+function renderHistory() {
+  $("history").replaceChildren(...view.history.slice().reverse().map(h => {
+    const b = phaseBlock(h); b.style.margin = "8px 0"; return b;
+  }));
+}
+
+function renderDraw() {
+  const box = [el("div", {textContent: view.draw_shares})];
+  if (view.secret_ballots) box.push(el("div", {className: "muted",
+    textContent: `Ballots are secret. Your last vote: ${view.votes_held ? (view.my_draw_vote ? "yes" : "no") : "none yet"}.`}));
+  else if (view.votes_held && view.draw_votes) box.push(el("div", {textContent: "Latest ballots: " +
+    Object.entries(view.draw_votes).map(([p, v]) => `${p} ${v ? "yes" : "no"}`).join(", ")}));
+  $("draw").replaceChildren(...box);
+}
+
+function renderMessages() {
+  const f = $("filter"), keep = f.value;
+  const partners = new Set(["GLOBAL"]);
+  for (const m of view.messages) { partners.add(m.sender); m.recipients.forEach(r => partners.add(r)); }
+  partners.delete(view.power);
+  f.replaceChildren(el("option", {value: "", textContent: "everything"}),
+    ...[...partners].sort().map(p => el("option", {value: p, textContent: p === "GLOBAL" ? "public messages" : `with ${p}`})));
+  f.value = [...f.options].some(o => o.value === keep) ? keep : "";
+  const shown = view.messages.filter(m => !f.value ||
+    (f.value === "GLOBAL" ? m.recipients[0] === "GLOBAL" : m.sender === f.value || m.recipients.includes(f.value)));
+  $("msgs").replaceChildren(...shown.slice().reverse().map(m => el("div", {className: "msg" + (m.sender === view.power ? " mine" : "")},
+    el("div", {className: "meta", textContent: `${m.phase} round ${m.round + 1} · ${m.sender} → ${who(m.recipients)}`}),
+    el("div", {textContent: m.text}))));
+  if (!shown.length) $("msgs").append(el("div", {className: "muted", textContent: "No messages."}));
+  $("rejected").replaceChildren(...(view.rejected || []).slice(-5).map(r =>
+    el("div", {textContent: `Not delivered (${r.phase}): ${r.reason || r.error || ""} "${(r.text || "").slice(0, 80)}"`})));
+}
+$("filter").onchange = () => view && renderMessages();
+
+function budgetLeft() {
+  if (!view.press_budget) return Infinity;
+  return view.press_budget.remaining - drafts.reduce((n, d) => n + tokens(d.text), 0);
+}
+
+function renderNegotiate() {
+  $("act-title").textContent = "Your turn: send messages";
+  const body = [];
+  const left = budgetLeft();
+  body.push(el("div", {className: "muted", textContent: view.press_budget
+    ? `Press budget this round: ${left} of ${view.press_budget.limit} tokens left (1 token = 4 characters).`
+    : "No press budget limit."}));
+  body.push(el("div", {className: "muted", textContent:
+    "Everyone writes at the same time; messages are delivered after every power has written."}));
+  drafts.forEach((d, i) => body.push(el("div", {className: "draft"},
+    el("div", {}, el("div", {className: "muted", textContent: `to ${who(d.recipients)} · ${tokens(d.text)} tokens`}),
+       el("div", {textContent: d.text})),
+    el("button", {textContent: "Remove", onclick: () => { drafts.splice(i, 1); renderNegotiate(); }}))));
+
+  const publicOnly = view.press_mode === "public";
+  const options = publicOnly ? ["GLOBAL"] : ["GLOBAL", ...view.recipients];
+  const multi = !publicOnly && view.allow_group;
+  const chips = el("div", {className: "chips"});
+  for (const p of options) {
+    const input = el("input", {type: multi ? "checkbox" : "radio", name: "to", value: p, checked: publicOnly});
+    chips.append(el("label", {}, input, " " + (p === "GLOBAL" ? "Everyone" : p)));
+  }
+  chips.onchange = e => {  // "Everyone" can't be combined with named recipients
+    if (!multi) return;
+    const boxes = [...chips.querySelectorAll("input")];
+    if (e.target.value === "GLOBAL" && e.target.checked) boxes.forEach(b => { if (b.value !== "GLOBAL") b.checked = false; });
+    else if (e.target.checked) boxes.find(b => b.value === "GLOBAL").checked = false;
+  };
+  const text = el("textarea", {placeholder: "Write a message…"});
+  const count = el("span", {className: "muted"});
+  text.oninput = () => {
+    const t = tokens(text.value);
+    count.textContent = `${t} tokens`;
+    count.className = t > left ? "err" : "muted";
+  };
+  const add = el("button", {textContent: "Add message", onclick: () => {
+    const recipients = [...chips.querySelectorAll("input:checked")].map(b => b.value);
+    if (!recipients.length) { alert("Choose who receives the message."); return; }
+    if (!text.value.trim()) return;
+    if (tokens(text.value) > left) { alert("That message is over your remaining budget."); return; }
+    drafts.push({recipients, text: text.value.trim()});
+    renderNegotiate();
+  }});
+  body.push(el("div", {className: "muted", textContent: "To:"}), chips, text, el("div", {className: "row"}, add, count));
+  const send = el("button", {className: "primary",
+    textContent: drafts.length ? `Send ${drafts.length} message${drafts.length > 1 ? "s" : ""} and end round` : "Send nothing this round",
+    onclick: () => submit({messages: drafts})});
+  body.push(el("div", {className: "row"}, send));
+  $("act-body").replaceChildren(...body);
+}
+
+function renderOrders() {
+  const t = view.phase_type, delta = view.adjustment_delta;
+  $("act-title").textContent = "Your turn: orders";
+  const body = [];
+  if (t === "A") body.push(el("div", {className: "muted", textContent: delta > 0
+    ? `You may build up to ${delta} unit${delta > 1 ? "s" : ""} in your vacant home centers.`
+    : delta < 0 ? `You must disband ${-delta} unit${delta < -1 ? "s" : ""}.` : "No builds or disbands this winter."}));
+  if (t === "R") body.push(el("div", {className: "muted", textContent: "Retreat each dislodged unit, or disband it. A unit with no order is disbanded."}));
+  const selects = [];
+  const table = el("table");
+  for (const loc of Object.keys(view.legal_orders).sort()) {
+    const legal = view.legal_orders[loc].filter(o => o !== "WAIVE");
+    const s = el("select");
+    let blank = null;
+    if (t === "A") blank = delta > 0 ? "(no build)" : "(keep)";
+    else if (t === "R") blank = "(no order: disband)";
+    if (blank) s.append(el("option", {value: "", textContent: blank}));
+    for (const o of legal) s.append(el("option", {value: o, textContent: o}));
+    const hold = legal.find(o => o === `${o.split(" ")[0]} ${loc} H`);
+    if (t === "M" && hold) s.value = hold;
+    selects.push(s);
+    table.append(el("tr", {}, el("td", {textContent: loc}), el("td", {}, s)));
+  }
+  if (selects.length) body.push(table);
+  else body.push(el("div", {className: "muted", textContent: "You have nothing to order this phase."}));
+  let vote = null;
+  if (view.vote_phase) {
+    vote = el("input", {type: "checkbox", checked: !!view.my_draw_vote});
+    body.push(el("div", {className: "row"}, el("label", {}, vote,
+      " Vote for a draw among all surviving powers (it passes only if every survivor votes yes)")));
+  }
+  body.push(el("div", {className: "row"}, el("button", {className: "primary", textContent: "Submit orders", onclick: () => {
+    const orders = selects.map(s => s.value).filter(Boolean);
+    if (t === "A" && delta > 0 && orders.length > delta) { alert(`You can build at most ${delta}.`); return; }
+    if (t === "A" && delta < 0 && orders.length !== -delta) { alert(`Choose exactly ${-delta} unit(s) to disband.`); return; }
+    submit({orders, draw_vote: vote ? vote.checked : null});
+  }})));
+  $("act-body").replaceChildren(...body);
+}
+
+async function submit(reply) {
+  if (sending) return;
+  sending = true;
+  try {
+    const res = await fetch("/submit", {method: "POST", headers: {"Content-Type": "application/json"},
+                                         body: JSON.stringify({seq, reply})});
+    const out = await res.json();
+    if (out.error) alert(out.error);
+    await poll();
+  } finally { sending = false; }
+}
+
+poll();
+setInterval(poll, 1500);
+</script>
+</body>
+</html>

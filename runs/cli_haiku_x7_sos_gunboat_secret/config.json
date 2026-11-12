@@ -1,0 +1,14 @@
+{
+  "name": "cli_haiku_x7_sos_gunboat_secret",
+  "models": {
+    "haiku": {"provider": "claude_cli", "model": "claude-haiku-5-5", "effort": "low", "billing": "subscription"}
+  },
+  "lineup": ["haiku", "haiku", "haiku", "haiku", "haiku", "haiku", "haiku"],
+  "n_games": 1,
+  "assignment": "fixed",
+  "scoring": "sos",
+  "game": {"press_mode": "gunboat", "secret_ballots": true, "max_year": 1908, "announced_max_year": 1999,
+           "draw_vote_from_year": 1901, "identity_disclosure": "hidden"},
+  "agent": {"output_limit": 4096, "memory_window": "auto"},
+  "seed": 1
+}

@@ -1,0 +1,157 @@
+{"phase": "S1901M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD - SER", "A VIE H", "F TRI H"], "draw_vote": false, "valid": ["A BUD - SER", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1901M", "power": "ENGLAND", "attempt": 0, "submitted": ["F EDI - NWG", "F LON - NTH", "A LVP - YOR"], "draw_vote": false, "valid": ["F EDI - NWG", "F LON - NTH", "A LVP - YOR"], "errors": []}
+{"phase": "S1901M", "power": "FRANCE", "attempt": 0, "submitted": ["A MAR - SPA", "A PAR - BUR", "F BRE - MAO"], "draw_vote": false, "valid": ["A MAR - SPA", "A PAR - BUR", "F BRE - MAO"], "errors": []}
+{"phase": "S1901M", "power": "GERMANY", "attempt": 0, "submitted": ["F KIE - DEN", "A BER H", "A MUN H"], "draw_vote": false, "valid": ["F KIE - DEN", "A BER H", "A MUN H"], "errors": []}
+{"phase": "S1901M", "power": "ITALY", "attempt": 0, "submitted": ["F NAP - TYS", "A ROM H", "A VEN H"], "draw_vote": false, "valid": ["F NAP - TYS", "A ROM H", "A VEN H"], "errors": []}
+{"phase": "S1901M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC H"], "errors": []}
+{"phase": "S1901M", "power": "TURKEY", "attempt": 0, "submitted": ["A CON - BUL", "A SMY - CON", "F ANK - BLA"], "draw_vote": false, "valid": ["A CON - BUL", "A SMY - CON", "F ANK - BLA"], "errors": []}
+{"phase": "F1901M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A SER H", "A VIE H", "F TRI H"], "draw_vote": false, "valid": ["A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1901M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWG - NWY", "F NTH C A YOR - BEL", "A YOR - BEL VIA"], "draw_vote": false, "valid": ["F NWG - NWY", "F NTH C A YOR - BEL", "A YOR - BEL VIA"], "errors": []}
+{"phase": "F1901M", "power": "FRANCE", "attempt": 0, "submitted": ["A SPA - POR", "F MAO S A SPA - POR", "A BUR H"], "draw_vote": false, "valid": ["A SPA - POR", "F MAO S A SPA - POR", "A BUR H"], "errors": []}
+{"phase": "F1901M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A MUN H", "F DEN H"], "draw_vote": false, "valid": ["A BER H", "A MUN H", "F DEN H"], "errors": []}
+{"phase": "F1901M", "power": "ITALY", "attempt": 0, "submitted": ["F TYS - TUN", "A ROM H", "A VEN H"], "draw_vote": false, "valid": ["F TYS - TUN", "A ROM H", "A VEN H"], "errors": []}
+{"phase": "F1901M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC H"], "errors": []}
+{"phase": "F1901M", "power": "TURKEY", "attempt": 0, "submitted": ["A BUL H", "A CON H", "F BLA H"], "draw_vote": false, "valid": ["A BUL H", "A CON H", "F BLA H"], "errors": []}
+{"phase": "W1901A", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD B"], "draw_vote": false, "valid": ["A BUD B"], "errors": []}
+{"phase": "W1901A", "power": "ENGLAND", "attempt": 0, "submitted": ["F EDI B", "A LON B"], "draw_vote": false, "valid": ["F EDI B", "A LON B"], "errors": []}
+{"phase": "W1901A", "power": "FRANCE", "attempt": 0, "submitted": ["A PAR B"], "draw_vote": false, "valid": ["A PAR B"], "errors": []}
+{"phase": "W1901A", "power": "GERMANY", "attempt": 0, "submitted": ["A KIE B"], "draw_vote": false, "valid": ["A KIE B"], "errors": []}
+{"phase": "W1901A", "power": "ITALY", "attempt": 0, "submitted": ["A NAP B"], "draw_vote": false, "valid": ["A NAP B"], "errors": []}
+{"phase": "W1901A", "power": "RUSSIA", "attempt": 0, "submitted": [], "draw_vote": false, "valid": [], "errors": []}
+{"phase": "W1901A", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK B"], "draw_vote": false, "valid": ["A ANK B"], "errors": []}
+{"phase": "S1902M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": false, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1902M", "power": "ENGLAND", "attempt": 0, "submitted": ["A LON - HOL VIA", "F NTH C A LON - HOL", "A BEL S A LON - HOL", "F EDI H", "F NWY H"], "draw_vote": false, "valid": ["A LON - HOL VIA", "F NTH C A LON - HOL", "A BEL S A LON - HOL", "F EDI H", "F NWY H"], "errors": []}
+{"phase": "S1902M", "power": "FRANCE", "attempt": 0, "submitted": ["A POR - SPA", "F MAO S A POR - SPA", "A BUR H", "A PAR H"], "draw_vote": false, "valid": ["A POR - SPA", "F MAO S A POR - SPA", "A BUR H", "A PAR H"], "errors": []}
+{"phase": "S1902M", "power": "GERMANY", "attempt": 0, "submitted": ["A KIE - HOL", "A BER H", "A MUN H", "F DEN H"], "draw_vote": false, "valid": ["A KIE - HOL", "A BER H", "A MUN H", "F DEN H"], "errors": []}
+{"phase": "S1902M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP - APU", "F TUN H", "A ROM H", "A VEN H"], "draw_vote": false, "valid": ["A NAP - APU", "F TUN H", "A ROM H", "A VEN H"], "errors": []}
+{"phase": "S1902M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC - BOT"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F STP/SC - BOT"], "errors": []}
+{"phase": "S1902M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1902M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1902M", "power": "ENGLAND", "attempt": 0, "submitted": ["A HOL H", "A BEL S A HOL", "F NTH S A HOL", "F EDI H", "F NWY S F BOT - SWE"], "draw_vote": false, "valid": ["A HOL H", "A BEL S A HOL", "F NTH S A HOL", "F EDI H", "F NWY S F BOT - SWE"], "errors": []}
+{"phase": "F1902M", "power": "FRANCE", "attempt": 0, "submitted": ["A SPA H", "F MAO H", "A BUR H", "A PAR H"], "draw_vote": true, "valid": ["A SPA H", "F MAO H", "A BUR H", "A PAR H"], "errors": []}
+{"phase": "F1902M", "power": "GERMANY", "attempt": 0, "submitted": ["A KIE H", "A BER H", "A MUN H", "F DEN H"], "draw_vote": true, "valid": ["A KIE H", "A BER H", "A MUN H", "F DEN H"], "errors": []}
+{"phase": "F1902M", "power": "ITALY", "attempt": 0, "submitted": ["A APU - NAP", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A APU - NAP", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1902M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F BOT - SWE"], "draw_vote": true, "valid": ["A MOS H", "A WAR H", "F SEV H", "F BOT - SWE"], "errors": []}
+{"phase": "F1902M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "W1902A", "power": "AUSTRIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1902A", "power": "ENGLAND", "attempt": 0, "submitted": ["F LON B"], "draw_vote": false, "valid": ["F LON B"], "errors": []}
+{"phase": "W1902A", "power": "FRANCE", "attempt": 0, "submitted": ["A MAR B"], "draw_vote": true, "valid": ["A MAR B"], "errors": []}
+{"phase": "W1902A", "power": "GERMANY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1902A", "power": "ITALY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1902A", "power": "RUSSIA", "attempt": 0, "submitted": ["A STP B"], "draw_vote": true, "valid": ["A STP B"], "errors": []}
+{"phase": "W1902A", "power": "TURKEY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "S1903M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1903M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NTH - SKA", "F LON - NTH", "F NWY H", "F EDI H", "A HOL H", "A BEL H"], "draw_vote": false, "valid": ["F NTH - SKA", "F LON - NTH", "F NWY H", "F EDI H", "A HOL H", "A BEL H"], "errors": []}
+{"phase": "S1903M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": false, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1903M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A MUN H", "A KIE H", "F DEN H"], "draw_vote": true, "valid": ["A BER H", "A MUN H", "A KIE H", "F DEN H"], "errors": []}
+{"phase": "S1903M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1903M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": true, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1903M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1903M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1903M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NTH - DEN", "F SKA S F NTH - DEN", "A HOL - KIE", "F EDI - NTH", "F NWY H", "A BEL H"], "draw_vote": false, "valid": ["F NTH - DEN", "F SKA S F NTH - DEN", "A HOL - KIE", "F EDI - NTH", "F NWY H", "A BEL H"], "errors": []}
+{"phase": "F1903M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "F1903M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A MUN H", "A KIE H", "F DEN H"], "draw_vote": true, "valid": ["A BER H", "A MUN H", "A KIE H", "F DEN H"], "errors": []}
+{"phase": "F1903M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1903M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": true, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "F1903M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1903R", "power": "GERMANY", "attempt": 0, "submitted": ["F DEN R BAL"], "draw_vote": false, "valid": ["F DEN R BAL"], "errors": []}
+{"phase": "W1903A", "power": "AUSTRIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1903A", "power": "ENGLAND", "attempt": 0, "submitted": ["A LON B"], "draw_vote": false, "valid": ["A LON B"], "errors": []}
+{"phase": "W1903A", "power": "FRANCE", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1903A", "power": "GERMANY", "attempt": 0, "submitted": ["F BAL D"], "draw_vote": true, "valid": ["F BAL D"], "errors": []}
+{"phase": "W1903A", "power": "ITALY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1903A", "power": "RUSSIA", "attempt": 0, "submitted": [], "draw_vote": false, "valid": [], "errors": []}
+{"phase": "W1903A", "power": "TURKEY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "S1904M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1904M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWY H", "A BEL H", "A HOL H", "F SKA H", "F NTH H", "F DEN H", "A LON H"], "draw_vote": false, "valid": ["F NWY H", "A BEL H", "A HOL H", "F SKA H", "F NTH H", "F DEN H", "A LON H"], "errors": []}
+{"phase": "S1904M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1904M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "S1904M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1904M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1904M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1904M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1904M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "draw_vote": false, "valid": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "errors": []}
+{"phase": "F1904M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "F1904M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "F1904M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1904M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "F1904M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "S1905M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1905M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "draw_vote": false, "valid": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "errors": []}
+{"phase": "S1905M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1905M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "S1905M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1905M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1905M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1905M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1905M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "draw_vote": false, "valid": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "errors": []}
+{"phase": "F1905M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "F1905M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "F1905M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1905M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "F1905M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "S1906M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1906M", "power": "ENGLAND", "attempt": 0, "submitted": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "draw_vote": false, "valid": ["F NWY H", "A BEL H", "A HOL H", "F SKA S F DEN", "F NTH S A HOL", "F DEN H", "A LON H"], "errors": []}
+{"phase": "S1906M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1906M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "S1906M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1906M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1906M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1906M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1906M", "power": "ENGLAND", "attempt": 0, "submitted": ["A HOL - KIE", "F DEN S A HOL - KIE", "F NTH C A LON - HOL", "A LON - HOL VIA", "A BEL - RUH", "F SKA S F DEN", "F NWY H"], "draw_vote": false, "valid": ["A HOL - KIE", "F DEN S A HOL - KIE", "F NTH C A LON - HOL", "A LON - HOL VIA", "A BEL - RUH", "F SKA S F DEN", "F NWY H"], "errors": []}
+{"phase": "F1906M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "F1906M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A KIE H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A KIE H", "A MUN H"], "errors": []}
+{"phase": "F1906M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1906M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "F1906M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "W1906A", "power": "AUSTRIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1906A", "power": "ENGLAND", "attempt": 0, "submitted": ["A LON B"], "draw_vote": false, "valid": ["A LON B"], "errors": []}
+{"phase": "W1906A", "power": "FRANCE", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1906A", "power": "GERMANY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1906A", "power": "ITALY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1906A", "power": "RUSSIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1906A", "power": "TURKEY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "S1907M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1907M", "power": "ENGLAND", "attempt": 0, "submitted": ["A RUH - MUN", "A KIE S A RUH - MUN", "F DEN - BAL", "F SKA - DEN", "F NTH C A LON - BEL", "A LON - BEL VIA", "A HOL S A LON - BEL", "F NWY H"], "draw_vote": false, "valid": ["A RUH - MUN", "A KIE S A RUH - MUN", "F DEN - BAL", "F SKA - DEN", "F NTH C A LON - BEL", "A LON - BEL VIA", "A HOL S A LON - BEL", "F NWY H"], "errors": []}
+{"phase": "S1907M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1907M", "power": "GERMANY", "attempt": 0, "submitted": ["A BER H", "A MUN H"], "draw_vote": true, "valid": ["A BER H", "A MUN H"], "errors": []}
+{"phase": "S1907M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1907M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": true, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1907M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "S1907R", "power": "GERMANY", "attempt": 0, "submitted": ["A MUN R BOH"], "draw_vote": false, "valid": ["A MUN R BOH"], "errors": []}
+{"phase": "F1907M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1907M", "power": "ENGLAND", "attempt": 0, "submitted": ["A KIE - BER", "F BAL S A KIE - BER", "A MUN S A KIE - BER", "A HOL H", "A BEL H", "F DEN H", "F NTH H", "F NWY H"], "draw_vote": false, "valid": ["A KIE - BER", "F BAL S A KIE - BER", "A MUN S A KIE - BER", "A HOL H", "A BEL H", "F DEN H", "F NTH H", "F NWY H"], "errors": []}
+{"phase": "F1907M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "F1907M", "power": "GERMANY", "attempt": 0, "submitted": ["A BOH - MUN", "A BER S A BOH - MUN"], "draw_vote": true, "valid": ["A BOH - MUN", "A BER S A BOH - MUN"], "errors": []}
+{"phase": "F1907M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1907M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "F1907M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "F1907R", "power": "GERMANY", "attempt": 0, "submitted": ["A BER R PRU"], "draw_vote": false, "valid": ["A BER R PRU"], "errors": []}
+{"phase": "W1907A", "power": "AUSTRIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1907A", "power": "ENGLAND", "attempt": 0, "submitted": ["F LON B", "F LVP B"], "draw_vote": false, "valid": ["F LON B", "F LVP B"], "errors": []}
+{"phase": "W1907A", "power": "FRANCE", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1907A", "power": "GERMANY", "attempt": 0, "submitted": ["A BOH D", "A PRU D"], "draw_vote": true, "valid": ["A BOH D", "A PRU D"], "errors": []}
+{"phase": "W1907A", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": [], "errors": ["Illegal order: 'A NAP H'", "Illegal order: 'A ROM H'", "Illegal order: 'A VEN H'", "Illegal order: 'F TUN H'"]}
+{"phase": "W1907A", "power": "ITALY", "attempt": 1, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1907A", "power": "RUSSIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1907A", "power": "TURKEY", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "S1908M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": true, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "S1908M", "power": "ENGLAND", "attempt": 0, "submitted": ["F DEN - SWE", "F NWY S F DEN - SWE", "F BAL S F DEN - SWE", "A BEL - BUR", "A MUN S A BEL - BUR", "A HOL - BEL", "F LON - ENG", "F LVP - IRI", "F NTH H", "A BER - PRU"], "draw_vote": false, "valid": ["F DEN - SWE", "F NWY S F DEN - SWE", "F BAL S F DEN - SWE", "A BEL - BUR", "A MUN S A BEL - BUR", "A HOL - BEL", "F LON - ENG", "F LVP - IRI", "F NTH H", "A BER - PRU"], "errors": []}
+{"phase": "S1908M", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "draw_vote": true, "valid": ["A BUR H", "A PAR H", "A SPA H", "A MAR H", "F MAO H"], "errors": []}
+{"phase": "S1908M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": true, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "S1908M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "draw_vote": true, "valid": ["A MOS H", "A WAR H", "F SEV H", "F SWE H", "A STP H"], "errors": []}
+{"phase": "S1908M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": true, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "S1908R", "power": "FRANCE", "attempt": 0, "submitted": ["A BUR R GAS"], "draw_vote": false, "valid": ["A BUR R GAS"], "errors": []}
+{"phase": "S1908R", "power": "RUSSIA", "attempt": 0, "submitted": ["F SWE R FIN"], "draw_vote": false, "valid": ["F SWE R FIN"], "errors": []}
+{"phase": "F1908M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "draw_vote": false, "valid": ["A BUD H", "A SER H", "A VIE H", "F TRI H"], "errors": []}
+{"phase": "F1908M", "power": "ENGLAND", "attempt": 0, "submitted": ["F SWE H", "F NWY S F SWE", "F BAL S F SWE", "A PRU H", "A MUN S A BUR", "A BUR H", "A BEL - PIC", "F ENG - BRE", "F IRI - MAO", "F NTH H"], "draw_vote": false, "valid": ["F SWE H", "F NWY S F SWE", "F BAL S F SWE", "A PRU H", "A MUN S A BUR", "A BUR H", "A BEL - PIC", "F ENG - BRE", "F IRI - MAO", "F NTH H"], "errors": []}
+{"phase": "F1908M", "power": "FRANCE", "attempt": 0, "submitted": ["A PAR H", "A SPA H", "A MAR H", "A GAS H", "F MAO H"], "draw_vote": false, "valid": ["A PAR H", "A SPA H", "A MAR H", "A GAS H", "F MAO H"], "errors": []}
+{"phase": "F1908M", "power": "ITALY", "attempt": 0, "submitted": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "draw_vote": false, "valid": ["A NAP H", "A ROM H", "A VEN H", "F TUN H"], "errors": []}
+{"phase": "F1908M", "power": "RUSSIA", "attempt": 0, "submitted": ["A MOS H", "A WAR H", "F SEV H", "A STP H", "F FIN H"], "draw_vote": false, "valid": ["A MOS H", "A WAR H", "F SEV H", "A STP H", "F FIN H"], "errors": []}
+{"phase": "F1908M", "power": "TURKEY", "attempt": 0, "submitted": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "draw_vote": false, "valid": ["A ANK H", "F BLA H", "A BUL H", "A CON H"], "errors": []}
+{"phase": "W1908A", "power": "AUSTRIA", "attempt": 0, "submitted": [], "draw_vote": true, "valid": [], "errors": []}
+{"phase": "W1908A", "power": "ENGLAND", "attempt": 0, "submitted": ["F LON B", "A LVP B"], "draw_vote": false, "valid": ["F LON B", "A LVP B"], "errors": []}
+{"phase": "W1908A", "power": "FRANCE", "attempt": 0, "submitted": ["A GAS D"], "draw_vote": false, "valid": ["A GAS D"], "errors": []}
+{"phase": "W1908A", "power": "ITALY", "attempt": 0, "submitted": [], "draw_vote": false, "valid": [], "errors": []}
+{"phase": "W1908A", "power": "RUSSIA", "attempt": 0, "submitted": ["F FIN D"], "draw_vote": false, "valid": ["F FIN D"], "errors": []}
+{"phase": "W1908A", "power": "TURKEY", "attempt": 0, "submitted": [], "draw_vote": false, "valid": [], "errors": []}

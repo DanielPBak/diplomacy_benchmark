@@ -1,0 +1,41 @@
+{
+  "name": "qwen36_x7_dss_24k",
+  "models": {
+    "qwen36": {
+      "provider": "openai_compat",
+      "model": "/Users/danbak/models/qwen3.6-35b-a3b-4bit",
+      "base_url": "http://127.0.0.1:8080/v1",
+      "api_key_env": "LOCAL_LLM_API_KEY",
+      "json_mode": "none",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking budget 1500)",
+      "context_window": 60000,
+      "thinking_budget": 1500
+    }
+  },
+  "lineup": [
+    "qwen36",
+    "qwen36",
+    "qwen36",
+    "qwen36",
+    "qwen36",
+    "qwen36",
+    "qwen36"
+  ],
+  "n_games": 1,
+  "assignment": "fixed",
+  "scoring": "dss",
+  "game": {
+    "press_mode": "full",
+    "max_year": 1908,
+    "announced_max_year": 1999,
+    "negotiation_rounds": 3,
+    "press_token_budget": 300,
+    "draw_vote_from_year": 1901,
+    "identity_disclosure": "hidden"
+  },
+  "agent": {
+    "output_limit": 4096,
+    "memory_window": 24000
+  },
+  "seed": 1
+}

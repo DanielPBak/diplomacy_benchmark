@@ -1,0 +1,18 @@
+{
+  "name": "haiku_vs_6qwen_full_dss",
+  "models": {
+    "haiku": {"provider": "anthropic", "model": "claude-haiku-5-5", "effort": "low"},
+    "qwen8": {"provider": "openai_compat", "model": "/Users/danbak/models/qwen3-8b-8bit",
+              "base_url": "http://127.0.0.1:8080/v1", "api_key_env": "LOCAL_LLM_API_KEY", "json_mode": "none",
+              "identity": "Qwen3-8B (8-bit MLX, thinking)", "context_window": 34000}
+  },
+  "lineup": ["haiku", "qwen8", "qwen8", "qwen8", "qwen8", "qwen8", "qwen8"],
+  "n_games": 7,
+  "assignment": "balanced",
+  "scoring": "dss",
+  "game": {"press_mode": "full", "max_year": 1920, "negotiation_rounds": 5,
+           "draw_vote_from_year": 1901, "identity_disclosure": "hidden"},
+  "agent": {"output_limit": 4096, "memory_window": "auto"},
+  "seed": 1,
+  "max_usd": 5
+}

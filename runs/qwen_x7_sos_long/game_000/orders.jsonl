@@ -1,0 +1,9 @@
+{"phase": "S1901M", "power": "AUSTRIA", "attempt": 0, "submitted": ["A BUD - RUM", "A VIE - GAL", "F TRI - ALB"], "draw_vote": true, "valid": ["A BUD - RUM", "A VIE - GAL", "F TRI - ALB"], "errors": []}
+{"phase": "S1901M", "power": "ENGLAND", "attempt": 0, "submitted": ["F EDI - NTH", "F LON - WAL", "A LVP - YOR"], "draw_vote": true, "valid": ["F EDI - NTH", "F LON - WAL", "A LVP - YOR"], "errors": []}
+{"phase": "S1901M", "power": "FRANCE", "attempt": 0, "submitted": ["A PAR - BUR", "A MAR - PIE", "F BRE H"], "draw_vote": true, "valid": ["A PAR - BUR", "A MAR - PIE", "F BRE H"], "errors": []}
+{"phase": "S1901M", "power": "GERMANY", "attempt": 0, "submitted": ["F KIE - DEN", "A BER S F KIE", "A MUN - BUR"], "draw_vote": true, "valid": ["F KIE - DEN", "A BER S F KIE", "A MUN - BUR"], "errors": []}
+{"phase": "S1901M", "power": "ITALY", "attempt": 0, "submitted": ["F NAP - BUL", "A ROM - RUM", "A VEN - TUN"], "draw_vote": true, "valid": [], "errors": ["Illegal order: 'F NAP - BUL'", "Illegal order: 'A ROM - RUM'", "Illegal order: 'A VEN - TUN'"]}
+{"phase": "S1901M", "power": "ITALY", "attempt": 1, "submitted": ["F NAP - APU", "A ROM - TUS", "A VEN - PIE"], "draw_vote": true, "valid": ["F NAP - APU", "A ROM - TUS", "A VEN - PIE"], "errors": []}
+{"phase": "S1901M", "power": "RUSSIA", "attempt": 0, "submitted": ["A WAR - LVN", "F STP/SC - FIN", "F SEV - RUM"], "draw_vote": true, "valid": ["A WAR - LVN", "F STP/SC - FIN", "F SEV - RUM"], "errors": []}
+{"phase": "S1901M", "power": "TURKEY", "attempt": 0, "submitted": ["F ANK S A CON - BUL", "A CON - BUL", "A SMY - SYR"], "draw_vote": true, "valid": ["A CON - BUL", "A SMY - SYR"], "errors": ["Illegal order: 'F ANK S A CON - BUL'"]}
+{"phase": "S1901M", "power": "TURKEY", "attempt": 1, "submitted": ["F ANK S A CON", "A CON - BUL", "A SMY - SYR"], "draw_vote": true, "valid": ["F ANK S A CON", "A CON - BUL", "A SMY - SYR"], "errors": []}

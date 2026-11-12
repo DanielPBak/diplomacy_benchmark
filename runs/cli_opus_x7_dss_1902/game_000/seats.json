@@ -1,0 +1,41 @@
+{
+  "seed": 1,
+  "memory_window": 200000,
+  "seats": {
+    "AUSTRIA": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "ENGLAND": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "FRANCE": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "GERMANY": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "ITALY": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "RUSSIA": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    },
+    "TURKEY": {
+      "model": "opus",
+      "scoring": "dss",
+      "identity": "claude-opus-5-5"
+    }
+  }
+}

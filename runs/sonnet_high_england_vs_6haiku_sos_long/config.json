@@ -1,0 +1,15 @@
+{
+  "name": "sonnet_high_england_vs_6haiku_sos_long",
+  "models": {
+    "sonnet": {"provider": "anthropic", "model": "claude-sonnet-5-5", "effort": "high"},
+    "haiku": {"provider": "anthropic", "model": "claude-haiku-5-5", "effort": "low"}
+  },
+  "games": [{"AUSTRIA": "haiku", "ENGLAND": "sonnet", "FRANCE": "haiku", "GERMANY": "haiku",
+             "ITALY": "haiku", "RUSSIA": "haiku", "TURKEY": "haiku"}],
+  "scoring": "sos",
+  "game": {"press_mode": "full", "max_year": 1908, "announced_max_year": 1999, "negotiation_rounds": 5,
+           "press_token_budget": 300, "draw_vote_from_year": 1901, "identity_disclosure": "hidden"},
+  "agent": {"output_limit": 4096, "memory_window": "auto"},
+  "seed": 1,
+  "max_usd": 15
+}

@@ -1,0 +1,108 @@
+{
+  "game_id": "sonnet_high_england_vs_6haiku_sos_long/game_000",
+  "press_mode": "full",
+  "outcome": "draw_vote",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 4,
+    "ENGLAND": 6,
+    "FRANCE": 6,
+    "GERMANY": 4,
+    "ITALY": 4,
+    "RUSSIA": 5,
+    "TURKEY": 5
+  },
+  "final_phase": "W1903A",
+  "final_year": 1903,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1908,
+  "announced_max_year": 1999,
+  "year_centers": {
+    "1901": {
+      "AUSTRIA": 4,
+      "ENGLAND": 5,
+      "FRANCE": 5,
+      "GERMANY": 4,
+      "ITALY": 4,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1902": {
+      "AUSTRIA": 4,
+      "ENGLAND": 5,
+      "FRANCE": 6,
+      "GERMANY": 4,
+      "ITALY": 4,
+      "RUSSIA": 6,
+      "TURKEY": 5
+    }
+  },
+  "year_survivors": {
+    "1901": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1902": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ]
+  },
+  "n_messages": 120,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 754,
+    "ENGLAND": 677,
+    "FRANCE": 1402,
+    "GERMANY": 1663,
+    "ITALY": 858,
+    "RUSSIA": 1442,
+    "TURKEY": 886
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "claude-haiku-5-5",
+    "ENGLAND": "claude-sonnet-5-5",
+    "FRANCE": "claude-haiku-5-5",
+    "GERMANY": "claude-haiku-5-5",
+    "ITALY": "claude-haiku-5-5",
+    "RUSSIA": "claude-haiku-5-5",
+    "TURKEY": "claude-haiku-5-5"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 1,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 1,
+    "TURKEY": 1
+  },
+  "resumes": 0
+}

@@ -1,0 +1,69 @@
+{
+  "game_id": "local_smoke",
+  "press_mode": "full",
+  "outcome": "draw_vote",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 3,
+    "ENGLAND": 3,
+    "FRANCE": 3,
+    "GERMANY": 3,
+    "ITALY": 3,
+    "RUSSIA": 4,
+    "TURKEY": 3
+  },
+  "final_phase": "F1901M",
+  "final_year": 1901,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1903,
+  "year_centers": {},
+  "year_survivors": {},
+  "n_messages": 60,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 426,
+    "ENGLAND": 134,
+    "FRANCE": 282,
+    "GERMANY": 412,
+    "ITALY": 182,
+    "RUSSIA": 248,
+    "TURKEY": 114
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "Qwen3-8B (8-bit MLX, thinking)",
+    "ENGLAND": "Qwen3-8B (8-bit MLX, thinking)",
+    "FRANCE": "Qwen3-8B (8-bit MLX, thinking)",
+    "GERMANY": "Qwen3-8B (8-bit MLX, thinking)",
+    "ITALY": "Qwen3-8B (8-bit MLX, thinking)",
+    "RUSSIA": "Qwen3-8B (8-bit MLX, thinking)",
+    "TURKEY": "Qwen3-8B (8-bit MLX, thinking)"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 0,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 0,
+    "TURKEY": 0
+  },
+  "resumes": 0
+}

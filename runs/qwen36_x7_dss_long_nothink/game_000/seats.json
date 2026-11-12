@@ -1,0 +1,41 @@
+{
+  "seed": 1,
+  "memory_window": 60000,
+  "seats": {
+    "AUSTRIA": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "ENGLAND": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "FRANCE": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "GERMANY": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "ITALY": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "RUSSIA": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    },
+    "TURKEY": {
+      "model": "qwen36",
+      "scoring": "dss",
+      "identity": "Qwen3.6-35B-A3B (4-bit MLX, thinking off)"
+    }
+  }
+}

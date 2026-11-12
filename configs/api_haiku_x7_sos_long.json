@@ -1,0 +1,37 @@
+{
+  "name": "api_haiku_x7_sos_long",
+  "models": {
+    "haiku": {
+      "provider": "anthropic",
+      "model": "claude-haiku-5-5",
+      "effort": "low"
+    }
+  },
+  "lineup": [
+    "haiku",
+    "haiku",
+    "haiku",
+    "haiku",
+    "haiku",
+    "haiku",
+    "haiku"
+  ],
+  "n_games": 1,
+  "assignment": "fixed",
+  "scoring": "sos",
+  "game": {
+    "press_mode": "full",
+    "max_year": 1908,
+    "announced_max_year": 1999,
+    "negotiation_rounds": 5,
+    "press_token_budget": 300,
+    "draw_vote_from_year": 1901,
+    "identity_disclosure": "hidden"
+  },
+  "agent": {
+    "output_limit": 4096,
+    "memory_window": "auto"
+  },
+  "seed": 1,
+  "max_usd": 5
+}

@@ -1,0 +1,180 @@
+{
+  "game_id": "cli_opus_high_england_vs_6haiku_dss_long/game_000",
+  "press_mode": "full",
+  "outcome": "draw_vote",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 4,
+    "ENGLAND": 6,
+    "FRANCE": 4,
+    "GERMANY": 5,
+    "ITALY": 3,
+    "RUSSIA": 6,
+    "TURKEY": 4
+  },
+  "final_phase": "W1907A",
+  "final_year": 1907,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1908,
+  "announced_max_year": 1999,
+  "year_centers": {
+    "1901": {
+      "AUSTRIA": 3,
+      "ENGLAND": 4,
+      "FRANCE": 6,
+      "GERMANY": 4,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1902": {
+      "AUSTRIA": 4,
+      "ENGLAND": 5,
+      "FRANCE": 5,
+      "GERMANY": 5,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1903": {
+      "AUSTRIA": 4,
+      "ENGLAND": 5,
+      "FRANCE": 5,
+      "GERMANY": 5,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1904": {
+      "AUSTRIA": 4,
+      "ENGLAND": 6,
+      "FRANCE": 4,
+      "GERMANY": 5,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1905": {
+      "AUSTRIA": 4,
+      "ENGLAND": 7,
+      "FRANCE": 3,
+      "GERMANY": 5,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1906": {
+      "AUSTRIA": 4,
+      "ENGLAND": 7,
+      "FRANCE": 3,
+      "GERMANY": 5,
+      "ITALY": 3,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    }
+  },
+  "year_survivors": {
+    "1901": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1902": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1903": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1904": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1905": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1906": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ]
+  },
+  "n_messages": 1172,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 9278,
+    "ENGLAND": 14122,
+    "FRANCE": 10022,
+    "GERMANY": 11031,
+    "ITALY": 10015,
+    "RUSSIA": 9454,
+    "TURKEY": 8829
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "claude-haiku-5-5",
+    "ENGLAND": "claude-opus-5-5",
+    "FRANCE": "claude-haiku-5-5",
+    "GERMANY": "claude-haiku-5-5",
+    "ITALY": "claude-haiku-5-5",
+    "RUSSIA": "claude-haiku-5-5",
+    "TURKEY": "claude-haiku-5-5"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 0,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 1,
+    "TURKEY": 1
+  },
+  "resumes": 0
+}

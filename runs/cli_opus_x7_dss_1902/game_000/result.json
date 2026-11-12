@@ -1,0 +1,108 @@
+{
+  "game_id": "cli_opus_x7_dss_1902/game_000",
+  "press_mode": "full",
+  "outcome": "year_cap",
+  "winners": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "final_centers": {
+    "AUSTRIA": 6,
+    "ENGLAND": 4,
+    "FRANCE": 6,
+    "GERMANY": 5,
+    "ITALY": 4,
+    "RUSSIA": 6,
+    "TURKEY": 3
+  },
+  "final_phase": "S1903M",
+  "final_year": 1903,
+  "survivors": [
+    "AUSTRIA",
+    "ENGLAND",
+    "FRANCE",
+    "GERMANY",
+    "ITALY",
+    "RUSSIA",
+    "TURKEY"
+  ],
+  "max_year": 1902,
+  "announced_max_year": 1999,
+  "year_centers": {
+    "1901": {
+      "AUSTRIA": 5,
+      "ENGLAND": 4,
+      "FRANCE": 5,
+      "GERMANY": 5,
+      "ITALY": 4,
+      "RUSSIA": 6,
+      "TURKEY": 4
+    },
+    "1902": {
+      "AUSTRIA": 6,
+      "ENGLAND": 4,
+      "FRANCE": 6,
+      "GERMANY": 5,
+      "ITALY": 4,
+      "RUSSIA": 6,
+      "TURKEY": 3
+    }
+  },
+  "year_survivors": {
+    "1901": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ],
+    "1902": [
+      "AUSTRIA",
+      "ENGLAND",
+      "FRANCE",
+      "GERMANY",
+      "ITALY",
+      "RUSSIA",
+      "TURKEY"
+    ]
+  },
+  "n_messages": 558,
+  "n_rejected_messages": 0,
+  "press_tokens_sent": {
+    "AUSTRIA": 3945,
+    "ENGLAND": 3872,
+    "FRANCE": 3694,
+    "GERMANY": 3699,
+    "ITALY": 3604,
+    "RUSSIA": 3626,
+    "TURKEY": 3646
+  },
+  "identity_disclosure": "hidden",
+  "identities_true": {
+    "AUSTRIA": "claude-opus-5-5",
+    "ENGLAND": "claude-opus-5-5",
+    "FRANCE": "claude-opus-5-5",
+    "GERMANY": "claude-opus-5-5",
+    "ITALY": "claude-opus-5-5",
+    "RUSSIA": "claude-opus-5-5",
+    "TURKEY": "claude-opus-5-5"
+  },
+  "identities_shown": null,
+  "invalid_order_attempts": {
+    "AUSTRIA": 0,
+    "ENGLAND": 0,
+    "FRANCE": 0,
+    "GERMANY": 0,
+    "ITALY": 0,
+    "RUSSIA": 1,
+    "TURKEY": 0
+  },
+  "resumes": 1
+}

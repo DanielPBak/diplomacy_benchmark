@@ -1,0 +1,41 @@
+{
+  "seed": 1,
+  "memory_window": 34000,
+  "seats": {
+    "AUSTRIA": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "ENGLAND": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "FRANCE": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "GERMANY": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "ITALY": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "RUSSIA": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    },
+    "TURKEY": {
+      "model": "qwen8",
+      "scoring": "sos",
+      "identity": "Qwen3-8B (8-bit MLX, thinking)"
+    }
+  }
+}
